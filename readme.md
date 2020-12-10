@@ -2,6 +2,8 @@
 
 This simple Flask server app is meant to back cross-site scripting (XSS) proof-of-concept examples. Its main function is providing facilities for capturing and logging data from various events. It also contains some crude example scripts for actually submitting data to the server.
 
+**Note** Future development, if any, will be done in the https://github.com/mgillam/csik repo.
+
 ## Disclaimers
 Although this project does *not* contain any exploit code, we would like to remind you to always be certain you have explicit, written permission before testing an application.
 
@@ -30,4 +32,5 @@ Python 3.x - this version was developed on 3.6.
   - **/scripts** - a place to get payloads from
   - **/logs** - a place where the data gets logged to
   
+ 
  
